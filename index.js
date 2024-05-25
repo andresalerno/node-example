@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 5000;
 
 // Start the server and have it listen on port 5000
 // When the server is running, it will log a message to the console
-// app.listen(PORT);
+app.listen(PORT);
 
-// Export the Express app as a module for Vercel to handle
-module.exports = app;
+// // Export the Express app as a module for Vercel to handle
+// module.exports = app;
